@@ -59,3 +59,11 @@ Create an optimized production build in the `build` directory:
 ```bash
 npm run build
 ```
+
+## Deploying to GitHub Pages
+
+This repository deploys its production build with GitHub Actions. In the
+repository's **Settings → Pages**, set the build and deployment source to
+**GitHub Actions** (not **Deploy from a branch**). Push to `main` to run the
+deployment workflow. Once it completes, the app will be available at
+<https://hasnas03.github.io/to-do-list/>.
